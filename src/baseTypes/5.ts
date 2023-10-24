@@ -4,11 +4,5 @@
 */
 
 let union: string | number;
-union = 'Hello'; // допустиме
-union = 42; // допустиме
-union = true; // не допустиме, оскільки boolean не входить в об'єднану множину типів (string | number)
 
-let literal: 'enable' | 'disable';
-literal = 'enable'; // допустиме
-literal = 'disable'; // допустиме
-literal = 'active'; // не допустиме, оскільки 'active' не входить в обмежений перелік літеральних значень
+let literal: "enable" | "disable";
